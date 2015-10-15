@@ -13,6 +13,7 @@
 		1D7C234C1BCF8EE200AE0E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7C234A1BCF8EE200AE0E31 /* Main.storyboard */; };
 		1D7C234E1BCF8EE200AE0E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7C234D1BCF8EE200AE0E31 /* Assets.xcassets */; };
 		1D7C23511BCF8EE200AE0E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7C234F1BCF8EE200AE0E31 /* LaunchScreen.storyboard */; };
+		1D7C235A1BCF8F8F00AE0E31 /* BranchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C23591BCF8F8F00AE0E31 /* BranchObject.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1D7C234D1BCF8EE200AE0E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D7C23501BCF8EE200AE0E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D7C23521BCF8EE200AE0E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7C23581BCF8F8F00AE0E31 /* BranchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchObject.h; sourceTree = "<group>"; };
+		1D7C23591BCF8F8F00AE0E31 /* BranchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1D7C23451BCF8EE200AE0E31 /* AppDelegate.m */,
 				1D7C23471BCF8EE200AE0E31 /* ViewController.h */,
 				1D7C23481BCF8EE200AE0E31 /* ViewController.m */,
+				1D7C23581BCF8F8F00AE0E31 /* BranchObject.h */,
+				1D7C23591BCF8F8F00AE0E31 /* BranchObject.m */,
 				1D7C234A1BCF8EE200AE0E31 /* Main.storyboard */,
 				1D7C234D1BCF8EE200AE0E31 /* Assets.xcassets */,
 				1D7C234F1BCF8EE200AE0E31 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				1D7C23491BCF8EE200AE0E31 /* ViewController.m in Sources */,
 				1D7C23461BCF8EE200AE0E31 /* AppDelegate.m in Sources */,
+				1D7C235A1BCF8F8F00AE0E31 /* BranchObject.m in Sources */,
 				1D7C23431BCF8EE200AE0E31 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
